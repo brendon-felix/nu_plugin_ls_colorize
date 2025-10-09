@@ -1,0 +1,22 @@
+[package]
+
+name = "nu_plugin_ls_colorize"
+version = "0.1.0"
+authors = ["Brendon Felix <brendon.felix.c@gmail.com>"]
+edition = "2021"
+description = "a nushell plugin called ls_colorize"
+repository = "https://github.com/brendon-felix/nu_plugin_ls_colorize"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lscolors = "0.20"
+nu-ansi-term = "0.50.1"
+nu-path = "0.107.0"
+nu-plugin = "0.107.0"
+nu-protocol = { version = "0.107.0", features = ["plugin"] }
+nu-utils = "0.107.0"
+
+[dev-dependencies]
+nu-plugin-test-support = { version = "0.107.0" }
