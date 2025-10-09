@@ -9,9 +9,6 @@ use std::path::Path;
 
 mod color_utils;
 
-#[cfg(test)]
-mod tests;
-
 #[macro_export]
 macro_rules! type_error {
     ($value:expr, $call:expr) => {

@@ -4,9 +4,10 @@ name = "nu_plugin_ls_colorize"
 version = "0.1.0"
 authors = ["Brendon Felix <brendon.felix.c@gmail.com>"]
 edition = "2021"
-description = "a nushell plugin called ls_colorize"
+description = "A plugin for Nushell that colorizes paths using LS_COLORS"
 repository = "https://github.com/brendon-felix/nu_plugin_ls_colorize"
 license = "MIT"
+keywords = ["nushell", "ls_colors", "colorize"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
