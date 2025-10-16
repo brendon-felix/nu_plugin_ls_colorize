@@ -1,6 +1,12 @@
-# nu_plugin_ls_colorize
+<h1 align="center">nu_plugin_ls_colorize</h1>
 
-A simple plugin for [Nushell](https://nushell.sh/) which colorizes the input path
+<div align="center">
+
+  [![Version](https://img.shields.io/crates/v/nu_plugin_ls_colorize?style=for-the-badge)](https://crates.io/crates/nu_plugin_ls_colorize)
+
+</div>
+
+A simple plugin for [Nushell](https://nushell.sh/) which colorizes paths according to the builtin `ls` colors or the `LS_COLORS` environment variable (if set). In most cases, a colorized path should look the exact same as it would in `ls` or `ls | grid -c` when printed.
 
 ## Installing
 

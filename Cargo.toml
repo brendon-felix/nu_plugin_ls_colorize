@@ -1,8 +1,8 @@
 [package]
 
 name = "nu_plugin_ls_colorize"
-version = "0.1.0"
-authors = ["Brendon Felix <brendon.felix.c@gmail.com>"]
+version = "1.0.0+0.108.0"
+authors = ["Brendon Felix"]
 edition = "2021"
 description = "A plugin for Nushell that colorizes paths using LS_COLORS"
 repository = "https://github.com/brendon-felix/nu_plugin_ls_colorize"
@@ -14,10 +14,10 @@ keywords = ["nushell", "ls_colors", "colorize"]
 [dependencies]
 lscolors = "0.20"
 nu-ansi-term = "0.50.1"
-nu-path = "0.107.0"
-nu-plugin = "0.107.0"
-nu-protocol = { version = "0.107.0", features = ["plugin"] }
-nu-utils = "0.107.0"
+nu-path = "0.108.0"
+nu-plugin = "0.108.0"
+nu-protocol = { version = "0.108.0", features = ["plugin"] }
+nu-utils = "0.108.0"
 
 [dev-dependencies]
-nu-plugin-test-support = { version = "0.107.0" }
+nu-plugin-test-support = { version = "0.108.0" }
