@@ -141,7 +141,7 @@ impl SimplePluginCommand for LsColorize {
 }
 
 pub fn get_style(path: &str, cwd: &str, ls_colors: &LsColors) -> AnsiStyle {
-    // lifted from lscolor.rs at https://github.com/nushell/nushell
+    // lifted from nu-explore/src/explore/nu_common/lscolor.rs
     let mut style = ls_colors.style_for_str(path);
     let is_likely_dir = style.is_none();
     if is_likely_dir {

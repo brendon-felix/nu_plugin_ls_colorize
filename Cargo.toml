@@ -1,23 +1,23 @@
 [package]
 
 name = "nu_plugin_ls_colorize"
-version = "1.0.1+0.109.1"
+version = "0.110.0"
 authors = ["Brendon Felix"]
 edition = "2021"
 description = "A plugin for Nushell that colorizes paths using LS_COLORS"
 repository = "https://github.com/brendon-felix/nu_plugin_ls_colorize"
 license = "MIT"
-keywords = ["nushell", "ls_colors", "colorize"]
+keywords = ["nushell", "ls", "ansi", "ls_colors", "colorize"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 lscolors = "0.20"
 nu-ansi-term = "0.50.1"
-nu-path = "0.109.1"
-nu-plugin = "0.109.1"
-nu-protocol = { version = "0.109.1", features = ["plugin"] }
-nu-utils = "0.109.1"
+nu-path = "0.110.0"
+nu-plugin = "0.110.0"
+nu-protocol = { version = "0.110.0", features = ["plugin"] }
+nu-utils = "0.110.0"
 
 [dev-dependencies]
-nu-plugin-test-support = { version = "0.109.1" }
+nu-plugin-test-support = { version = "0.110.0" }
