@@ -1053,7 +1053,7 @@ dependencies = [
 
 [[package]]
 name = "nu_plugin_ls_colorize"
-version = "0.110.0"
+version = "1.0.2+0.110.0"
 dependencies = [
  "lscolors",
  "nu-ansi-term",
